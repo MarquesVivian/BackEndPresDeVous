@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #348AEF; /* Couleur de fond */
+    padding: 10px 20px;
+}
+
+.logo {
+    color: white; /* Couleur du texte du logo */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none; /* Supprime les puces */
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px; /* Espace entre les éléments de la navbar */
+}
+
+.nav-links a {
+    color: white; /* Couleur du texte des liens */
+    text-decoration: none; /* Supprime le soulignement */
+    padding: 5px 10px; /* Espacement autour des liens */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s ease; /* Transition pour effet au survol */
+}
+
+.nav-links a:hover {
+    background-color: #FF4D5A; /* Couleur au survol */
+    color: white; /* Couleur du texte au survol */
+}
